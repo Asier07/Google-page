@@ -1,0 +1,120 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left li {
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222
+}
+
+.right li {
+    list-style: none;
+    float: right;
+    overflow: hidden;
+    padding: 15px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222
+}
+
+li a{
+    color: #000;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#buscador {
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    background: url(img/microphone);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.search{
+    position: relative;
+    top: 15px;
+}
+
+.botones li{
+    margin-right: 37px;
+    list-style: none;
+    display: inline;
+    
+}
+
+#boton1 {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+#boton2 {
+    border-radius: 5%;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    background: #f2f2f2;
+}
+
+.botones li :hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+
+#idiomas{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    
+}
+
+
+footer .footer-left li {
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    padding: 15px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    background-color: #e6e6e6;
+}
+
+footer .footer-right li {
+    list-style: none;
+    float: right;
+    overflow: hidden;
+    padding: 15px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    background-color: #e6e6e6
+}
